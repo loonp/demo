@@ -14,21 +14,24 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bmapView=0x7f050005;
-        public static final int getMap=0x7f050008;
-        public static final int getlist=0x7f050007;
+        public static final int bmapView=0x7f050006;
+        public static final int getGPS=0x7f05000a;
+        public static final int getMap=0x7f050009;
+        public static final int getlist=0x7f050008;
         public static final int passWord=0x7f050001;
         public static final int reset=0x7f050003;
         public static final int submit=0x7f050002;
-        public static final int textView1=0x7f050004;
-        public static final int textViewformap=0x7f050006;
+        public static final int textView1=0x7f050005;
+        public static final int textViewformap=0x7f050007;
+        public static final int textViewforps=0x7f050004;
         public static final int userName=0x7f050000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_main_list=0x7f030001;
-        public static final int activity_main_map=0x7f030002;
-        public static final int activity_main_two=0x7f030003;
+        public static final int activity_main_gps=0x7f030001;
+        public static final int activity_main_list=0x7f030002;
+        public static final int activity_main_map=0x7f030003;
+        public static final int activity_main_two=0x7f030004;
     }
     public static final class string {
         public static final int app_name=0x7f040000;

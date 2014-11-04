@@ -51,6 +51,16 @@
             </intent-filter>
         </activity>
         
+        <activity
+            android:name="com.example.demo.GpsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
         <meta-data  
 	        android:name="com.baidu.lbsapi.API_KEY"  
 	        android:value="WmsxVnl08S1Mo4y7xxo47b3p" />

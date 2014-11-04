@@ -25,4 +25,10 @@
         android:layout_height="wrap_content"
         android:text="getMap" />
     
+    <Button
+        android:id="@+id/getGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getGPS" />
+    
 </LinearLayout>

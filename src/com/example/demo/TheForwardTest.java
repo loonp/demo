@@ -22,6 +22,12 @@ public class TheForwardTest extends Activity {
 		
 		final Button getGpsButton = (Button)this.findViewById(R.id.getGPS);
 		
+		final Button getAmapButton = (Button)this.findViewById(R.id.getAmap);
+		
+		final Button getAmapHistoryButton = (Button)this.findViewById(R.id.getAmapHistory);
+		
+		final Button getListHistoryButton = (Button)this.findViewById(R.id.getlistforhistory);
+		
 		getlistButton.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -51,6 +57,39 @@ public class TheForwardTest extends Activity {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
 				intent.setClass(TheForwardTest.this, GpsActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		getAmapButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent();
+				intent.setClass(TheForwardTest.this, AmapActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		getAmapHistoryButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent();
+				intent.setClass(TheForwardTest.this, AmapActivityForHistory.class);
+				startActivity(intent);
+			}
+		});
+		
+		getListHistoryButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent();
+				intent.setClass(TheForwardTest.this, TheListForAMapHistory.class);
 				startActivity(intent);
 			}
 		});

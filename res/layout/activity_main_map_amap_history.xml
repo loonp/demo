@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.amap.api.maps2d.MapView 
+	   xmlns:android="http://schemas.android.com/apk/res/android"
+	   android:id="@+id/map"
+	   android:layout_width="fill_parent"
+	   android:layout_height="fill_parent" >
+
+    </com.amap.api.maps2d.MapView>
+
+    <TextView
+        android:id="@+id/getTotalMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="i am TotalMeter ~!!!"
+        android:textColor="#FF0000FF" />
+    
+    <TextView
+        android:id="@+id/getAV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/getTotalMeter"
+        android:layout_marginTop="94dp"
+        android:text="i am AV ~!!!"
+        android:textColor="#FF0000FF" />
+
+    <TextView
+        android:id="@+id/getTotalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/getTotalMeter"
+        android:layout_marginTop="35dp"
+        android:text="i am TotalTime ~!!!"
+        android:textColor="#FF0000FF" />
+
+    
+</RelativeLayout>
